@@ -1,0 +1,24 @@
+*, *::before , *::after{
+  box-sizing: border-box;
+}
+
+
+body{
+margin: 0;
+background: linear-gradient(to right , #00AAFF , #00FF6C);
+
+
+
+}
+.calculator-grid{
+display: grid;
+margin-top: 5 rem;
+grid-template-columns: repeat(3,5rem);
+grid-template-rows: minmax(7rems,auto) repeat(5,6rem);
+
+
+}
+
+.span-two{
+  grid-column: span 2;
+}
